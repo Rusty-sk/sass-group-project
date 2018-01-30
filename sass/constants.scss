@@ -1,0 +1,19 @@
+$main-background-color: #253f55;
+$main-font: #162b3c;
+$h1-font-color: #305372;
+$header-font-color:#fff;
+
+
+@mixin base-font($weight, $size){
+    font-family: 'Oswald', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    color: $main-font;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: $h1-font-color;
+}
