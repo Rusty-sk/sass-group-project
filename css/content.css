@@ -1,0 +1,21 @@
+.content-wrapper {
+  width: 60%;
+  margin: 0 auto; }
+
+img {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 30px; }
+
+.content-blog {
+  background: #888;
+  height: 700px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block; }
+  .content-blog h1 {
+    padding-top: 20px;
+    margin-top: 30px; }
