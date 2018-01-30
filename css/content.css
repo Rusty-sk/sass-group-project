@@ -16,7 +16,8 @@ img {
   width: 100%;
   height: 100%;
   font-family: 'Oswald', sans-serif;
-  display: inline-block; }
+  display: inline-block;
+  padding-bottom: 50px; }
   .content-blog h1 {
     padding-top: 20px;
     margin-top: 30px; }
