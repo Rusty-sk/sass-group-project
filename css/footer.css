@@ -1,0 +1,30 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #305372; }
+
+footer {
+  width: 100%;
+  background: #253f55;
+  height: 100px; }
+  footer h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #162b3c;
+    text-align: center;
+    padding: 20px 0;
+    color: white; }
+  footer ul {
+    display: block;
+    text-align: center; }
+  footer li {
+    display: inline-block;
+    vertical-align: top;
+    width: 5%; }
+  footer a {
+    color: white;
+    transition: 0.3s; }
+    footer a:hover {
+      opacity: 0.2; }

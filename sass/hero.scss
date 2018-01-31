@@ -1,0 +1,23 @@
+@import './constants.scss';
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background: url("http://dash.ga.co/assets/jeff-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        color: white;
+        font-size: 48px;
+        padding-top: 40px;
+    }
+}
