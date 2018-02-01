@@ -20,4 +20,13 @@ p {
   font-weight: 400;
   color: #162b3c;
 }
-/*# sourceMappingURL=constants.css.map */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #888;
+}
+/*# sourceMappingURL=about-us.css.map */

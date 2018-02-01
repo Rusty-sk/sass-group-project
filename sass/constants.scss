@@ -2,7 +2,7 @@ $main-background-color: #253f55;
 $main-font: #162b3c;
 $h1-font-color: #305372;
 $header-font-color:#fff;
-
+$page-width: 70%;
 
 @mixin base-font($weight, $size){
     font-family: 'Oswald', sans-serif;
@@ -11,9 +11,23 @@ $header-font-color:#fff;
     color: $main-font;
 }
 
+@mixin flex-box($jc, $ac, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-content: $ac;
+    align-items: $ai;
+}
+
 h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 36px;
-    font-weight: 800;
+    @include base-font(800, 36);
     color: $h1-font-color;
+}
+
+h4 {
+    @include base-font(800, 30);
+    color: $header-font-color;
+}
+
+p {
+    @include base-font(400, 20px);
 }

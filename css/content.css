@@ -1,12 +1,30 @@
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
+  font-size: 36;
   font-weight: 800;
-  color: #305372; }
+  color: #162b3c;
+  color: #305372;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30;
+  font-weight: 800;
+  color: #162b3c;
+  color: #fff;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #162b3c;
+}
 
 .content-wrapper {
-  width: 50%;
-  margin: 0 auto; }
+  width: 70%;
+  margin: 0 auto;
+}
 
 img {
   width: 180px;
@@ -15,24 +33,40 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   float: left;
-  margin: 30px; }
+  margin: 10px 20px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  padding-top: 30px;
+}
 
 .content-blog {
   background: #888;
   width: 100%;
   height: 100%;
-  font-family: 'Oswald', sans-serif;
-  display: inline-block;
-  padding-bottom: 50px; }
-  .content-blog h1 {
-    padding-top: 20px;
-    margin-top: 30px; }
-  .content-blog p {
-    font-size: 20px;
-    margin-bottom: 40px; }
-  .content-blog a {
-    text-decoration: none;
-    color: white;
-    transition: 0.3s; }
-    .content-blog a:hover {
-      opacity: 0.2; }
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.content-blog h1 {
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.content-blog p {
+  margin-bottom: 40px;
+}
+
+.content-blog a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.content-blog a:hover {
+  opacity: 0.2;
+}
+/*# sourceMappingURL=content.css.map */

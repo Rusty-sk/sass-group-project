@@ -1,87 +1,171 @@
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
+  font-size: 36;
   font-weight: 800;
-  color: #305372; }
+  color: #162b3c;
+  color: #305372;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30;
+  font-weight: 800;
+  color: #162b3c;
+  color: #fff;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #162b3c;
+}
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
+  font-size: 36;
   font-weight: 800;
-  color: #305372; }
+  color: #162b3c;
+  color: #305372;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30;
+  font-weight: 800;
+  color: #162b3c;
+  color: #fff;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #162b3c;
+}
 
 * {
   margin: 0 auto;
-  padding: 0; }
+  padding: 0;
+}
 
 header {
-  background: url(http://dash.ga.co/assets/gene-bg.png);
-  height: 100%; }
-  header h1 {
-    margin: 0;
-    align-self: center; }
-  header img {
-    width: 100%;
-    height: 80px; }
-  header a {
-    text-decoration: none;
-    color: white;
-    align-self: center;
-    padding: 0;
-    margin: 0 10px 0 0;
-    transition: 0.3s; }
-    header a:hover {
-      opacity: 0.3; }
-  header li {
-    margin: 40px;
-    list-style: none;
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #162b3c; }
+  background: url("../img/gene-bg.png");
+}
+
+header h1 {
+  margin: 0;
+  align-self: start;
+}
+
+header img {
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  align-self: center;
+  padding: 0;
+  margin: 0 10px 0 0;
+  transition: 0.3s;
+}
+
+header a:hover {
+  opacity: 0.3;
+}
+
+header li {
+  padding: 15px 40px;
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #162b3c;
+}
 
 .header-container {
-  width: 80%;
-  display: flex; }
-  .header-container ul {
-    margin-right: 0;
-    display: flex;
-    align-content: center;
-    justify-content: space-around; }
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 80px;
+}
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 36px;
-  font-weight: 800;
-  color: #305372; }
+.header-container ul {
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 * {
   margin: 0 auto;
-  padding: 0; }
+  padding: 0;
+}
+
+.index {
+  height: 50vh;
+  background: url("../img/jeff-bg.jpg");
+}
+
+.about {
+  height: 30vh;
+  background: url("../img/about.jpg");
+}
+
+.blog {
+  height: 30vh;
+  background: url("../img/landscape.jpg");
+}
 
 .hero {
   width: 100%;
-  height: 500px;
-  background: url("http://dash.ga.co/assets/jeff-bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  .hero h1 {
-    margin: 0;
-    text-align: center;
-    color: white;
-    font-size: 48px;
-    padding-top: 40px; }
+  background-size: cover;
+}
+
+.hero h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  padding-top: 40px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
+  font-size: 36;
   font-weight: 800;
-  color: #305372; }
+  color: #162b3c;
+  color: #305372;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30;
+  font-weight: 800;
+  color: #162b3c;
+  color: #fff;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #162b3c;
+}
 
 .content-wrapper {
-  width: 50%;
-  margin: 0 auto; }
+  width: 70%;
+  margin: 0 auto;
+}
 
 img {
   width: 180px;
@@ -90,55 +174,128 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   float: left;
-  margin: 30px; }
+  margin: 10px 20px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  padding-top: 30px;
+}
 
 .content-blog {
   background: #888;
   width: 100%;
   height: 100%;
-  font-family: 'Oswald', sans-serif;
-  display: inline-block;
-  padding-bottom: 50px; }
-  .content-blog h1 {
-    padding-top: 20px;
-    margin-top: 30px; }
-  .content-blog p {
-    font-size: 20px;
-    margin-bottom: 40px; }
-  .content-blog a {
-    text-decoration: none;
-    color: white;
-    transition: 0.3s; }
-    .content-blog a:hover {
-      opacity: 0.2; }
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.content-blog h1 {
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.content-blog p {
+  margin-bottom: 40px;
+}
+
+.content-blog a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.content-blog a:hover {
+  opacity: 0.2;
+}
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
+  font-size: 36;
   font-weight: 800;
-  color: #305372; }
+  color: #162b3c;
+  color: #305372;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30;
+  font-weight: 800;
+  color: #162b3c;
+  color: #fff;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #162b3c;
+}
 
 footer {
   width: 100%;
   background: #253f55;
-  height: 100px; }
-  footer h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #162b3c;
-    text-align: center;
-    padding: 20px 0;
-    color: white; }
-  footer ul {
-    display: block;
-    text-align: center; }
-  footer li {
-    display: inline-block;
-    vertical-align: top;
-    width: 5%; }
-  footer a {
-    color: white;
-    transition: 0.3s; }
-    footer a:hover {
-      opacity: 0.2; }
+  height: 100px;
+  padding: 30px 0;
+}
+
+footer h4 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul {
+  display: block;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  vertical-align: top;
+  width: 5%;
+}
+
+footer a {
+  color: #fff;
+  transition: 0.3s;
+  margin: 20px;
+}
+
+footer a:hover {
+  opacity: 0.2;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36;
+  font-weight: 800;
+  color: #162b3c;
+  color: #305372;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30;
+  font-weight: 800;
+  color: #162b3c;
+  color: #fff;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #162b3c;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #888;
+}
+/*# sourceMappingURL=index.css.map */
