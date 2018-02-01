@@ -164,7 +164,7 @@ p {
 
 .content-wrapper {
   width: 70%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 img {
@@ -178,6 +178,11 @@ img {
   margin-top: 30px;
   padding: 10px 20px;
   padding-top: 30px;
+}
+
+.blog-pic {
+  height: 360px;
+  width: 360px;
 }
 
 .content-blog {
@@ -209,6 +214,14 @@ img {
 
 .content-blog a:hover {
   opacity: 0.2;
+}
+
+.article {
+  align-self: flex-start;
+}
+
+.blog-inline {
+  display: inline-block;
 }
 
 h1 {

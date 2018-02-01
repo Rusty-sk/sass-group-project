@@ -1,8 +1,9 @@
 @import './constants.scss';
 
-.content-wrapper {
+.content-wrapper { 
+    @include flex-box(flex-start, center, center);
     width: 70%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 img {
@@ -17,6 +18,11 @@ img {
     padding: 10px 20px;
     padding-top: 30px;
     
+}
+
+.blog-pic{
+    height: 360px;
+    width: 360px;
 }
 
 .content-blog{
@@ -46,4 +52,14 @@ img {
             opacity: 0.2;
         }
     }
+}
+
+.article {
+    align-self: flex-start;
+
+}
+
+.blog-inline{ 
+    display: inline-block;
+
 }
