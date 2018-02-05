@@ -21,6 +21,12 @@ p {
   color: #162b3c;
 }
 
+.logo {
+  height: 150px;
+  width: 300px;
+  background: url("../img/logo.svg");
+}
+
 footer {
   width: 100%;
   background: #253f55;

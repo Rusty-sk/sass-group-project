@@ -1,9 +1,19 @@
 @import './constants.scss';
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content-blog {
+    display: flex;
+    align-content: center;
+}
+
 .content-wrapper { 
     @include flex-box(flex-start, center, center);
     width: 70%;
-    margin: 0;
 }
 
 img {
@@ -60,6 +70,7 @@ img {
 }
 
 .blog-inline{ 
-    display: inline-block;
+    @include flex-box(flex-start, center, center)
+    
 
 }

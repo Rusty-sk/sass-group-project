@@ -21,6 +21,12 @@ p {
   color: #162b3c;
 }
 
+.logo {
+  height: 150px;
+  width: 300px;
+  background: url("../img/logo.svg");
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 36;
@@ -42,6 +48,12 @@ p {
   font-size: 20px;
   font-weight: 400;
   color: #162b3c;
+}
+
+.logo {
+  height: 150px;
+  width: 300px;
+  background: url("../img/logo.svg");
 }
 
 * {
@@ -162,9 +174,29 @@ p {
   color: #162b3c;
 }
 
+.logo {
+  height: 150px;
+  width: 300px;
+  background: url("../img/logo.svg");
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.content-blog {
+  display: flex;
+  align-content: center;
+}
+
 .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
   width: 70%;
-  margin: 0;
 }
 
 img {
@@ -221,7 +253,10 @@ img {
 }
 
 .blog-inline {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -245,6 +280,12 @@ p {
   font-size: 20px;
   font-weight: 400;
   color: #162b3c;
+}
+
+.logo {
+  height: 150px;
+  width: 300px;
+  background: url("../img/logo.svg");
 }
 
 footer {
@@ -301,6 +342,12 @@ p {
   font-size: 20px;
   font-weight: 400;
   color: #162b3c;
+}
+
+.logo {
+  height: 150px;
+  width: 300px;
+  background: url("../img/logo.svg");
 }
 
 .flex {

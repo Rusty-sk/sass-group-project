@@ -31,3 +31,9 @@ h4 {
 p {
     @include base-font(400, 20px);
 }
+
+.logo {
+    height:150px;
+    width: 300px;
+    background: url('../img/logo.svg')
+}
